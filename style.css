@@ -1,0 +1,51 @@
+/* 
+    hex codes 
+    #6b7a8f blue
+    #f7882f orange
+    #f7c331 yellow
+    #dcc7aa grey
+*/
+
+body {
+    background-color: #6b7a8f;
+
+}
+
+h1{
+    text-align: center;
+    border: solid 2px #6b7a8f;
+    background-color:#dcc7aa;
+    font-size: 100px;
+    padding: -5px -5px -5px -5px;
+    margin: 20px 20px 50px 20px;
+}
+
+nav{
+    text-align: center;
+    background-color: #f7c331;
+    padding: 20px 5px 20px 5px;
+    margin: 20px 20px 50px 20px;
+    justify-content: center;
+}
+
+nav > ul> li{
+    border: solid #6b7a8f 5px;
+    border-radius: 40px;
+    justify-content: center;
+    display: inline;
+    margin: 80px;
+    padding: 10px;
+    background-color: #f7882f;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 40px;
+}
+
+P{
+    background-color: #f7c331;
+}
