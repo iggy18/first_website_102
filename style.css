@@ -1,41 +1,49 @@
 /* 
     hex codes 
-    #6b7a8f blue
-    #f7882f orange
-    #f7c331 yellow
-    #dcc7aa grey
+#e3d7d1 lightest
+#ddcdc0 light
+#b59377 medium
+#69543c dark
+#746c5b darkest
+
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Heebo', sans-serif;
+font-family: 'Londrina Sketch', cursive;
 */
 
 body {
-    background-color: #6b7a8f;
-
+    background-color: #69543c;
 }
 
 h1{
+    font-family:'Londrina Sketch', cursive;
     text-align: center;
-    border: solid 2px #6b7a8f;                                 
-    background-color:#dcc7aa;
+    border: solid 2px #746c5b;                                 
+    background-color:#b59377;
+    color: #e3d7d1;
     font-size: 100px;
     padding: -5px -5px -5px -5px;
     margin: 20px 20px 50px 20px;
 }
 
 nav{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
     text-align: center;
-    background-color: #f7c331;
+    background-color: #69543c;
     padding: 20px 5px 20px 5px;
     margin: 20px 20px 50px 20px;
     justify-content: center;
 }
 
 nav > ul> li{
-    border: solid #6b7a8f 5px;
+    border: solid #746c5b 5px;
     border-radius: 40px;
     justify-content: center;
     display: inline;
     margin:20px;
     padding: 10px;
-    background-color: #f7882f;
+    background-color: #ddcdc0;
 }
 
 img{
@@ -47,5 +55,11 @@ img{
 }
 
 P{
-    background-color: #f7c331;
+    background-color: #e3d7d1;
+    font-family: 'Heebo', sans-serif;
+    font-size: x-large;
+}
+
+script{
+    justify-content: center;
 }

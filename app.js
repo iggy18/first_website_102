@@ -6,6 +6,8 @@ alert('Hello ' + username);
 
 if (username === 'Maddy'){
     document.write('<h2>' + 'Welcome Beautiful' + '</h2>');
+} else if (username === 'Cedar'){
+        document.write('<h2>' + 'HOW ARE YOU USING THIS PHONE!?!?' + '</h2>');
 } else {
     document.write( '<h2>' + 'welcome ' +username + '</h2>');
 }
