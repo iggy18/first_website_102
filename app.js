@@ -4,7 +4,7 @@ var username = prompt('Please Enter Your Name: ');
 
 alert('Hello ' + username);
 
-if (username === 'maddy'){
+if (username === 'Maddy'){
     document.write('<h2>' + 'Welcome Beautiful' + '</h2>');
 } else {
     document.write( '<h2>' + 'welcome ' +username + '</h2>');
